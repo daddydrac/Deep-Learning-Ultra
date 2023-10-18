@@ -14,15 +14,23 @@ Open source Deep Learning Containers (DLCs) are a set of Docker images for train
 
 ## Deep Learning Container Services
 
-1. Deep Learning Notebook, or you can mount VSCode to ```/app``` on: [http://localhost:8888](http://localhost:8888)
-2. MLFlow is an open source platform for managing the end-to-end machine learning lifecycle, see more [here](https://mlflow.org/docs/latest/what-is-mlflow.html); [http://localhost:5000](http://localhost:5000)
-3. Tensorboard povides the visualization and tooling needed for machine learning experimentation on: [http://localhost:6006](http://localhost:6006)
+1. Deep Learning Notebook, or you can mount VSCode to ```/app``` | [http://localhost:8888](http://localhost:8888)
+2. MLFlow is an open source platform for managing the end-to-end machine learning lifecycle, see more [here]. |(https://mlflow.org/docs/latest/what-is-mlflow.html); [http://localhost:5000](http://localhost:5000)
+3. Tensorboard povides the visualization and tooling needed for machine learning experimentation. | [http://localhost:6006](http://localhost:6006)
 4. Seldon Model Serving: If you have a trained MLflow model you are able to deploy one (or several) of the versions saved using Seldon’s prepackaged MLflow server, ports ```5555``` is for RESTful services, and ```9992``` is gRPC.
 
- - <strong>Deep learning solution:</strong> Pytorch, PyG (Graph Neural Networks), NVIDIA RAPIDS, OpenCV and TensorFlow - all python bindings specifically compiled for c++/CUDA.
- - CuPy, Anaconda Python v11.5
+ - <strong>Deep learning solution</strong>  - all python bindings specifically compiled for c++/CUDA:
+   - Pytorch 2
+   - PyG (Graph Neural Networks)
+   - NVIDIA RAPIDS
+   - OpenCV v4.8
+   - TensorFlow 2
+    
+ - CuPy, Anaconda Python v11.5, Captum and more!
+   
  - Supports LLMs, HuggingFace, Computer Vision, Navigation, Physics Informed ML, and Graph Neural Networks
 
+----------------------------------------------------------------------------
 
 ![a](./misc/b.png)
 ![a](./misc/d.png)
