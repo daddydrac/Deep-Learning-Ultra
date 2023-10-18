@@ -19,7 +19,7 @@ Open source Deep Learning Containers (DLCs) are a set of Docker images for train
 3. Tensorboard povides the visualization and tooling needed for machine learning experimentation on: [http://localhost:6006](http://localhost:6006)
 4. Seldon Model Serving: If you have a trained MLflow model you are able to deploy one (or several) of the versions saved using Seldon’s prepackaged MLflow server, ports ```5555``` is for RESTful services, and ```9992``` is gRPC.
 
- - <strong>Deep learning solution:</strong> Pytorch, PyG (Graph Neural Networks), NVIDIA RAPIDS, OpenCV and TensorFlow
+ - <strong>Deep learning solution:</strong> Pytorch, PyG (Graph Neural Networks), NVIDIA RAPIDS, OpenCV and TensorFlow - all python bindings specifically compiled for c++/CUDA.
  - CuPy, Anaconda Python v11.5
  - Supports LLMs, HuggingFace, Computer Vision, Navigation, Physics Informed ML, and Graph Neural Networks
 
