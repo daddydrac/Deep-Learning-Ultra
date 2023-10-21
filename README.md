@@ -1,7 +1,7 @@
 # Deep Learning Ultra
 Open source Deep Learning Containers (DLCs) are a set of Docker images for training and serving models in PyTorch, OpenCV (compiled for GPU), TensorFlow 2 for GPU, PyG and NVIDIA RAPIDS, running on CUDA 12.1.
 
-## Used and adopted by many!
+### Used and adopted by many!
 
 | ![Open source Deep Learning Containers (DLCs) ](./misc/h20ai.png) | ![Open source Deep Learning Containers (DLCs) ](./misc/nasa.png)    | ![Open source Deep Learning Containers (DLCs) ](./misc/tcs.png)    |
 | :---:   | :---: | :---: |
