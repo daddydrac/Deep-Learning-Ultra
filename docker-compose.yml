@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   deep_learning:
-    image: jhoeller/computer-vision:ultra
+    image: jhoeller/computer-vision:latest
     volumes:
       - /app/:/app
     ports:
@@ -38,17 +38,6 @@ services:
     ports:
       - 6006:6006
     command: tensorboard --logdir=/notebooks/graphs --bind_all
-
-  model_serving:
-    image: seldonio/mlflowserver:1.18.0-dev
-    networks:
-      - api_bridge
-    ports:
-      - 5555:5000   # grpc
-      - 9992:9000   # rest
-    environment:
-      - MODEL_NAME=my_llm
-      - SERVICE_TYPE=MODEL  # MODEL  ROUTER  TRANSFORMER  COMBINER  OUTLIER_DETECTOR
 
 networks:
   api_bridge:
