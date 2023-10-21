@@ -35,7 +35,7 @@ Edit line 17 in docker-compose.yaml for however many GPUs you have: ```count: 3 
    - OpenCV v4.8
    - TensorFlow 2
     
- - CuPy, Anaconda Python v11.5, Captum and more!
+ - CuPy, Anaconda Python v3.11.5, Captum and more!
    
  - Supports LLMs, HuggingFace, Computer Vision, Navigation, Physics Informed ML, and Graph Neural Networks
 
