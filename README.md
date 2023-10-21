@@ -3,11 +3,10 @@ Open source Deep Learning Containers (DLCs) are a set of Docker images for train
 
 ## Used and adopted by many!
 
-| ![](./misc/h20ai.png) | ![](./misc/nasa.png)    | ![](./misc/tcs.png)    |
+| ![Open source Deep Learning Containers (DLCs) ](./misc/h20ai.png) | ![Open source Deep Learning Containers (DLCs) ](./misc/nasa.png)    | ![Open source Deep Learning Containers (DLCs) ](./misc/tcs.png)    |
 | :---:   | :---: | :---: |
-| ![](./misc/220px-Argo_AI_logo.svg.png) | ![](./misc/argonne-logo-1200x1000.png)   |![](./misc/HPE_Cray_678x452.png)   |
-| :---:   | :---: | :---: |
-| ![](./misc/army_ai_task_force.png) | ![](./misc/cisco.png)   |![](./misc/deloitte.png)   |
+| ![Open source Deep Learning Containers (DLCs) ](./misc/220px-Argo_AI_logo.svg.png) | ![Open source Deep Learning Containers (DLCs) ](./misc/argonne-logo-1200x1000.png)   |![Open source Deep Learning Containers (DLCs) ](./misc/HPE_Cray_678x452.png)   |
+| ![Open source Deep Learning Containers (DLCs) ](./misc/army_ai_task_force.png) | ![Open source Deep Learning Containers (DLCs) ](./misc/cisco.png)   |![Open source Deep Learning Containers (DLCs) ](./misc/deloitte.png)   |
 
 
 ### Ultra easy deployment
