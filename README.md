@@ -17,7 +17,7 @@ Edit line 17 in docker-compose.yaml for however many GPUs you have: ```count: 3 
 
 
 ### Requirements
- - Linux configured with ```nvidia_docker2```, CUDA 12, NVIDIA Drivers v.525+
+ - Linux configured with ```nvidia-container-runtine``` [found here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html), CUDA 12, NVIDIA Drivers v.525+
  - NVIDIA GPU ```-ARCH_7.5+```
 
 
