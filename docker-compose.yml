@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   deep_learning:
+    container_name: ultra
     image: jhoeller/computer-vision:latest
     volumes:
       - ./app/:/app
