@@ -4,7 +4,7 @@ services:
   deep_learning:
     image: jhoeller/computer-vision:latest
     volumes:
-      - /app/:/app
+      - ./app/:/app
     ports:
       - 8888:8888
     networks:
@@ -23,7 +23,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - /mlflow:/mlflow
+      - ./mlflow:/mlflow
     networks:
       - api_bridge
     restart: always
@@ -34,7 +34,7 @@ services:
     networks:
       - api_bridge
     volumes:
-      - /tensor:/notebooks
+      - ./tensor:/notebooks
     ports:
       - 6006:6006
     command: tensorboard --logdir=/notebooks/graphs --bind_all
