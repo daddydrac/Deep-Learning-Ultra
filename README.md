@@ -42,7 +42,7 @@ Edit [line 18](https://github.com/daddydrac/Deep-Learning-Ultra/blob/main/docker
    - OpenCV v4.8
    - TensorFlow 2
     
- - CuPy, Anaconda Python v3.11.5, Captum and more!
+ - CuPy, Anaconda Python v3.11.5, Captum, MLFlow and more!
    
  - Supports LLMs, HuggingFace, Computer Vision, Navigation, Physics Informed ML, and Graph Neural Networks
 
