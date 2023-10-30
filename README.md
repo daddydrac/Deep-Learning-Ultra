@@ -15,6 +15,10 @@ Edit [line 17](https://github.com/daddydrac/Deep-Learning-Ultra/blob/main/docker
 
 ```docker compose up --build -d```
 
+   - Get security token to notebook:
+
+     ```docker exec -it ultra /bin/bash -c "jupyter notebook list" ```
+
 
 ### Requirements
  - Linux configured with ```nvidia-container-toolkit``` [found here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html), CUDA 12, NVIDIA Drivers v.525+
