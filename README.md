@@ -15,9 +15,12 @@ Edit [line 17](https://github.com/daddydrac/Deep-Learning-Ultra/blob/main/docker
 
 ```docker compose up --build -d```
 
-   - Get security token to notebook:
+   - Get security token to log into the notebook:
 
-     ```docker exec -it ultra /bin/bash -c "jupyter notebook list" ```
+     ```
+     token=$(docker exec -it ultra /bin/bash -c "jupyter notebook list") \
+     echo ${token::-8}
+     ```
 
 
 ### Requirements
