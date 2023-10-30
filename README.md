@@ -11,7 +11,7 @@ Open source Deep Learning Containers (DLCs) are a set of Docker images for train
 
 ### Ultra easy deployment
 
-Edit [line 17](https://github.com/daddydrac/Deep-Learning-Ultra/blob/main/docker-compose.yml#L17) in docker-compose.yaml for however many GPUs you have: ```count: 3  # num of gpus```, then run:
+Edit [line 18](https://github.com/daddydrac/Deep-Learning-Ultra/blob/main/docker-compose.yml#L18) in docker-compose.yaml for however many GPUs you have: ```count: 3  # num of gpus```, then run:
 
 ```docker compose up --build -d```
 
